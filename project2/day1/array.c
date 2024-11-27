@@ -39,5 +39,4 @@ int main() {
     printf("%s", stringArray[2]); 
     // Menampilkan string di indeks ke-2 dari array, yaitu "Anton".
 
-    return 0; // Mengembalikan nilai 0 untuk menunjukkan program berhasil dijalankan.
-}
+    return 0;
