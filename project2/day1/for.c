@@ -3,19 +3,19 @@
 /*
     Penjelasan tentang jenis loop:
 
-    1. **for loop**:
+    1. for loop:
     for (initialize expression (1); test expression(2); update expression(4)) {
         // body of for loop (3)
     }
     Contoh: Digunakan untuk perulangan dengan batasan yang sudah jelas. Misalnya, dari 0 hingga 9.
 
-    2. **while loop**:
+    2. while loop:
     while (test expression) {
        // body consisting of multiple statements
     }
     Contoh: Digunakan untuk perulangan yang berjalan selama kondisi tertentu benar.
 
-    3. **do-while loop**:
+    3. do-while loop:
     do {
         // body of do-while loop    
     } while (condition);
