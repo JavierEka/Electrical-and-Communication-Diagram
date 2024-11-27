@@ -1,7 +1,7 @@
 # Introduction to C Languange
 
 ## Dasar Bahasa C
-  **File C** : [DASAR](project2/day1/newFile.c)
+  **File C** : [DASAR](day1/newFile.c)
 
   ### Implementasi
     #include <stdio.h>
@@ -13,7 +13,7 @@
     }
 
 ## Tipe Data dan Variabel
-  **File C** : [TIPE DATA DAN VARIABEL1](project2/day1/dataTypeAndVariable0.c) & [TIPE DATA DAN VARIABEL2](project2/day1/dataTypeAndVariable1.c)
+  **File C** : [TIPE DATA DAN VARIABEL1](day1/dataTypeAndVariable0.c) & [TIPE DATA DAN VARIABEL2](day1/dataTypeAndVariable1.c)
 
   ### Implementasi
     #include <stdio.h>
@@ -33,7 +33,7 @@
   Masih Kesulitan di Basis dan Nilai Overflow
 
 ## Array
-  **File C** : [ARRAY](project2/day1/array.c)
+  **File C** : [ARRAY](day1/array.c)
 
   ### Implementasi
     #include <stdio.h>
@@ -50,7 +50,7 @@
   Masih Kesulitan untuk Memanipulasi Array Seperti Mengabungkan Dua Array Menjadi Satu Array
 
 ## Character
-  **File C** : [CHARACTER](project2/day1/char.c)
+  **File C** : [CHARACTER](day1/char.c)
 
   ### Implementasi
     #include <stdio.h>
@@ -66,7 +66,7 @@
   Masih Kesulitan Untuk Memanipulasi String Seperti Uppercase atau Lowercase
 
 ## Operator
-  **File C** : [OPERATOR](project2/day1/operators.c)
+  **File C** : [OPERATOR](day1/operators.c)
 
   ### Implementasi
     #include <stdio.h>
@@ -84,7 +84,7 @@
     }
 
 ## Percabangan
-  **File C** : [PERCABANGAN](project2/day1/ifElse.c)
+  **File C** : [PERCABANGAN](day1/ifElse.c)
 
   ### Implementasi
     #include <stdio.h>
@@ -102,7 +102,7 @@
     }
 
 ## Perulangan
-  **File C** : [PERULANGAN](project2/day1/for.c)
+  **File C** : [PERULANGAN](day1/for.c)
 
   ### Implementasi
     include <stdio.h>
@@ -118,7 +118,7 @@
   Masih Kesulitan Memahami logika perulangan dan kontrol perulangan seperti kondisi berhenti dan cara mengubah nilai dalam iterasi. Apalagi Apabila ditambahkan input dalam Loop tersebut
 
 ## Fungsi
-  **File C** : [FUNGSI 1](project2/day1/function.c) & [FUNGSI 2](project2/day1/function2.c)
+  **File C** : [FUNGSI 1](day1/function.c) & [FUNGSI 2](day1/function2.c)
 
   ### Implementasi
     #include <stdio.h>
