@@ -1,17 +1,24 @@
 #include <stdio.h>
-int x =5,y=10;
+
+int x = 5, y = 10;  // Variabel global
+
+// Fungsi untuk menukar nilai x dan y
 void swap();
 
 int main() {
-    // int x = 5, y = 10;
-    // swap(x, y); //we need to Pass references (addresses) of x and y
-    printf("x: %d, y: %d\n", x, y); //result should be x: 10, y: 5
+    // swap(x, y); Harus dipanggil tanpa parameter dalam konteks ini karena swap tidak membutuhkan parameter
+    // Memanggil fungsi swap yang menukar nilai x dan y
+    swap();  // Memanggil fungsi swap untuk menukar nilai x dan y
+    printf("x: %d, y: %d\n", x, y); // Hasilnya seharusnya x: 10, y: 5
+    
     return 0;
 }
 
-// void sum(int x,y)
 void swap() {
-    int temp = x;
-    x = y;
-    y = temp;
+    // Menyimpan nilai x ke dalam variabel sementara temp
+    int temp = x;  
+    // Mengatur x menjadi nilai y
+    x = y;         
+    // Mengatur y menjadi nilai yang ada dalam temp (nilai x)
+    y = temp;      
 }
