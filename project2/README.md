@@ -1,114 +1,139 @@
-<p align="center">
-  <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
-</p>
+# Introduction to C Languange
 
-<h3 align="center">Project Title</h3>
+## Dasar Bahasa C
+  **File C** : [DASAR](project2/day1/newFile.c)
 
-<div align="center">
+  ### Implementasi
+    #include <stdio.h>
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+    int main() {
+      printf("Hello, World!");
 
-</div>
+      return 0;
+    }
 
----
+## Tipe Data dan Variabel
+  **File C** : [TIPE DATA DAN VARIABEL1](project2/day1/dataTypeAndVariable0.c) & [TIPE DATA DAN VARIABEL2](project2/day1/dataTypeAndVariable1.c)
 
-<p align="center"> Few lines describing your project.
-    <br> 
-</p>
+  ### Implementasi
+    #include <stdio.h>
+  
+    int main() {
+      int a = 5;
+      float b = 3.14;
+      char c = 'A';
 
-## 📝 Table of Contents
+      printf("Integer: %d\n", a);
+      printf("Float: %.2f\n", b);
+      printf("Character: %c\n", c);
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+      return 0;
+    }
+  ### Kesulitan
+  Masih Kesulitan di Basis dan Nilai Overflow
 
-## 🧐 About <a name = "about"></a>
+## Array
+  **File C** : [ARRAY](project2/day1/array.c)
 
-Write about 1-2 paragraphs describing the purpose of your project.
+  ### Implementasi
+    #include <stdio.h>
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+    int main() {
+      int arr[5] = {10, 20, 30, 40, 50};
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+      printf(%d\n",arr[i]);
 
-### Prerequisites
+      return 0;
+    }
 
-What things you need to install the software and how to install them.
+  ### Kesulitan
+  Masih Kesulitan untuk Memanipulasi Array Seperti Mengabungkan Dua Array Menjadi Satu Array
 
-```
-Give examples
-```
+## Character
+  **File C** : [CHARACTER](project2/day1/char.c)
 
-### Installing
+  ### Implementasi
+    #include <stdio.h>
 
-A step by step series of examples that tell you how to get a development env running.
+    int main() {
+      char c = 'A';
+      printf("Character: %c\n", c);
+      printf("Value ASSC dari %c: %d\n", c, c);
 
-Say what the step will be
+      return 0;
+    }
+  ### Kesulitan
+  Masih Kesulitan Untuk Memanipulasi String Seperti Uppercase atau Lowercase
 
-```
-Give the example
-```
+## Operator
+  **File C** : [OPERATOR](project2/day1/operators.c)
 
-And repeat
+  ### Implementasi
+    #include <stdio.h>
 
-```
-until finished
-```
+    int main() {
+      int a = 5, b = 3;
 
-End with an example of getting some data out of the system or using it for a little demo.
+      printf("Penjumlahan: %d\n", a + b);
+      printf("Pengurangan: %d\n", a - b);
+      printf("Perkalian: %d\n", a * b);
+      printf("Pembagian: %d\n", a / b);
+      printf("Modulus: %d\n", a % b);
 
-## 🔧 Running the tests <a name = "tests"></a>
+      return 0;
+    }
 
-Explain how to run the automated tests for this system.
+## Percabangan
+  **File C** : [PERCABANGAN](project2/day1/ifElse.c)
 
-### Break down into end to end tests
+  ### Implementasi
+    #include <stdio.h>
 
-Explain what these tests test and why
+    int main() {
+      int a = 5;
 
-```
-Give an example
-```
+      if (a != 10) {
+        printf("a bukan 10\n");
+      } else {
+        printf("a adalah 10\n");
+      }
 
-### And coding style tests
+      return 0;
+    }
 
-Explain what these tests test and why
+## Perulangan
+  **File C** : [PERULANGAN](project2/day1/for.c)
 
-```
-Give an example
-```
+  ### Implementasi
+    include <stdio.h>
 
-## 🎈 Usage <a name="usage"></a>
+    int main() {
+      for (int i = 1; i < 10; i += 2) {
+        printf("Bilangan Ganjil : %d\n", i);
+     }
 
-Add notes about how to use the system.
+      return 0;
+    }
+  ### Kesulitan
+  Masih Kesulitan Memahami logika perulangan dan kontrol perulangan seperti kondisi berhenti dan cara mengubah nilai dalam iterasi. Apalagi Apabila ditambahkan input dalam Loop tersebut
 
-## 🚀 Deployment <a name = "deployment"></a>
+## Fungsi
+  **File C** : [FUNGSI 1](project2/day1/function.c) & [FUNGSI 2](project2/day1/function2.c)
 
-Add additional notes about how to deploy this on a live system.
+  ### Implementasi
+    #include <stdio.h>
 
-## ⛏️ Built Using <a name = "built_using"></a>
+    void genap(int start, int end) {
+      for (int i = start; i <= end; i++) {
+        if (i % 2 == 0) {
+          printf("Bilangan Genap: %d\n", i);
+        }
+      }
+    }
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+    int main() {
+      int start = 1, end = 10;
+      genap(start, end);
 
-## ✍️ Authors <a name = "authors"></a>
-
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+      return 0;
+    }
