@@ -111,5 +111,5 @@ int main() {
     }
     */
 
-    return 0; // Mengembalikan 0 untuk menunjukkan bahwa program berjalan sukses.
+    return 0;
 }
