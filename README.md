@@ -137,7 +137,7 @@ File Untuk Programnya ada di [link ini](Cek_Jurusan.cpp)
 
 # Penugasan PCB
 File KiCad dari PCB dapat diakses dengan [link ini](Boost Converter)
-![image](https://github.com/user-attachments/assets/b258c863-a49c-49a1-a656-bdcc9a01cbfb)
+![image](https://github.com/user-attachments/assets/d90eebfb-e33f-4180-a38c-bda4d58fee63)
 ![image](https://github.com/user-attachments/assets/3e556e35-ccf7-4eab-a97d-7c334219cb1f)
 ![image](https://github.com/user-attachments/assets/b847cafb-8345-4c8c-be9c-b4e0c6385e97)
 Saya melakukan revisi di bagian PCB, dimana saya arrange ulang untuk menciptakan ground plane yang ideal
