@@ -19,6 +19,7 @@ Diagram ini menunjukkan sistem Engine Remote Control (ERC) berbasis STM32, diduk
 Diagram Fuel Engine Remote Control (FERC) ini menunjukkan pengendalian jarak jauh sistem mesin berbahan bakar yang terintegrasi. Baterai utama Li-Po 25,2V mengalirkan daya melalui regulator buck boost untuk menyediakan tegangan 12V, 7,4V, dan 5V ke berbagai komponen. Mikrokontroler STM32 berperan sebagai pusat kendali, menerima sinyal dari modul LoRa untuk mengontrol penginjeksian bahan bakar, pengoperasian mesin, dan propeller melalui ESC. Servo digunakan untuk manuver, dan fitur keselamatan berupa PCB darurat siap memutus daya jika terjadi kegagalan. Komunikasi dilakukan melalui receiver yang menerima input dari transmitter, sedangkan Mini PC, GPS, dan kamera mendukung fungsi tambahan untuk monitoring dan navigasi.
 
 # Contoh Program Untuk Mengecek Jurusan
+File Untuk Programnya ada di [link ini](Cek_Jurusan.cpp)
 
     #include <stdio.h>
     #include <string.h>
@@ -135,3 +136,11 @@ Diagram Fuel Engine Remote Control (FERC) ini menunjukkan pengendalian jarak jau
     }
 
 # Penugasan PCB
+File KiCad dari PCB dapat diakses dengan [link ini](Boost Converter)
+![image](https://github.com/user-attachments/assets/fce42e4e-f98a-429d-b768-c901b7948d70)
+![image](https://github.com/user-attachments/assets/3e556e35-ccf7-4eab-a97d-7c334219cb1f)
+![image](https://github.com/user-attachments/assets/b847cafb-8345-4c8c-be9c-b4e0c6385e97)
+Saya melakukan revisi di bagian PCB, dimana saya arrange ulang untuk menciptakan ground plane yang ideal
+
+
+
