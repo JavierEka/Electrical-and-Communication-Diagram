@@ -136,7 +136,7 @@ File Untuk Programnya ada di [link ini](Cek_Jurusan.cpp)
     }
 
 # Penugasan PCB
-File KiCad dari PCB dapat diakses dengan [link ini](Boost%20Converter
+File KiCad dari PCB dapat diakses dengan [link ini](Boost%20Converter)
 
 ## Schematics
 ![image](https://github.com/user-attachments/assets/d90eebfb-e33f-4180-a38c-bda4d58fee63)
